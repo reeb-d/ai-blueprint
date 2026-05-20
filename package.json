@@ -1,5 +1,5 @@
 {
-  "name": "@aiblueprint/mcp-server",
+  "name": "ai-blueprint-mcp-server"
   "version": "1.0.0",
   "description": "MCP server providing access to AI Blueprint design knowledge",
   "type": "module",
