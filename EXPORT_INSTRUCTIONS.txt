@@ -1,0 +1,103 @@
+================================================================================
+AI BLUEPRINT MCP SERVER - EXPORT INSTRUCTIONS
+================================================================================
+
+Since you're working in Figma Make (a cloud environment), you need to get 
+these files onto your local computer. Here's how:
+
+METHOD 1: Manual Copy (Recommended)
+────────────────────────────────────────────────────────────────────────────
+
+1. Create a new folder on your computer called "mcp-server"
+
+2. Inside that folder, create this structure:
+   
+   mcp-server/
+   ├── src/
+   │   └── data/
+   └── (files at root level)
+
+3. Copy each file's content from Figma Make to your local files:
+
+   ROOT LEVEL FILES:
+   - package.json
+   - tsconfig.json
+   - .gitignore
+   - README.md
+   - SETUP.md
+
+   SRC FILES:
+   - src/index.ts
+
+   SRC/DATA FILES:
+   - src/data/paradigms.ts
+   - src/data/principles.ts
+   - src/data/modalities.ts
+   - src/data/ux-laws.ts
+   - src/data/nielsen-heuristics.ts
+   - src/data/case-studies.ts
+   - src/data/resources.ts
+
+4. Open each file in Figma Make's file browser, copy the content, and paste
+   into the corresponding file on your local computer
+
+
+METHOD 2: Download via Git (If you have Git set up)
+────────────────────────────────────────────────────────────────────────────
+
+If your Figma Make project is connected to a Git repository:
+
+1. Commit the mcp-server folder to your repository
+2. Pull/clone the repository to your local computer
+3. The mcp-server folder will be included
+
+
+AFTER EXPORT - NEXT STEPS:
+────────────────────────────────────────────────────────────────────────────
+
+Once you have all files on your local computer:
+
+1. Open Terminal (Mac) or Command Prompt (Windows)
+2. Navigate to the mcp-server folder:
+   cd path/to/mcp-server
+
+3. Install dependencies:
+   npm install
+
+4. Build the TypeScript:
+   npm run build
+
+5. Follow SETUP.md for Claude Desktop configuration
+
+
+FILE VERIFICATION CHECKLIST:
+────────────────────────────────────────────────────────────────────────────
+
+Make sure you have all these files:
+
+□ package.json (572 bytes)
+□ tsconfig.json (403 bytes)
+□ .gitignore (36 bytes)
+□ README.md (4386 bytes)
+□ SETUP.md
+□ src/index.ts (Main server file, ~10KB)
+□ src/data/paradigms.ts
+□ src/data/principles.ts
+□ src/data/modalities.ts
+□ src/data/ux-laws.ts
+□ src/data/nielsen-heuristics.ts
+□ src/data/case-studies.ts
+□ src/data/resources.ts
+
+Total: 12 files + 2 directories
+
+
+NEED HELP?
+────────────────────────────────────────────────────────────────────────────
+
+If you're having trouble exporting, you can also:
+- Use Figma Make's download/export feature (if available)
+- Ask me to show you the content of each file one by one to copy manually
+- Share your project via Git to download it elsewhere
+
+================================================================================

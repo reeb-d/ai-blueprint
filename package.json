@@ -1,0 +1,28 @@
+{
+  "name": "@aiblueprint/mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server providing access to AI Blueprint design knowledge",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "ai",
+    "design",
+    "ux",
+    "paradigms"
+  ],
+  "author": "AI Blueprint",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.41",
+    "typescript": "^5.9.3"
+  }
+}

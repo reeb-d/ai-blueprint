@@ -1,0 +1,92 @@
+export const uxLawsData = [
+  {
+    name: "Jakob's Law",
+    category: 'Familiarity',
+    description: 'Users spend most of their time on other sites, and they prefer your site to work the same way',
+    application: 'Leverage existing mental models and familiar patterns in AI interfaces',
+  },
+  {
+    name: "Fitts's Law",
+    category: 'Interaction',
+    description: 'The time to acquire a target is a function of the distance to and size of the target',
+    application: 'Make important AI controls large and easy to reach',
+  },
+  {
+    name: "Hick's Law",
+    category: 'Decision Making',
+    description: 'The time it takes to make a decision increases with the number of choices',
+    application: 'Reduce AI-generated options to prevent decision paralysis',
+  },
+  {
+    name: 'Miller\'s Law',
+    category: 'Cognition',
+    description: 'The average person can only keep 7 (±2) items in their working memory',
+    application: 'Chunk AI responses into digestible pieces',
+  },
+  {
+    name: 'Pareto Principle',
+    category: 'Prioritization',
+    description: '80% of effects come from 20% of causes',
+    application: 'Prioritize AI features that deliver the most value',
+  },
+  {
+    name: 'Aesthetic-Usability Effect',
+    category: 'Visual Design',
+    description: 'Users perceive aesthetically pleasing designs as more usable',
+    application: 'Invest in visual polish for AI interfaces',
+  },
+  {
+    name: 'Peak-End Rule',
+    category: 'Experience',
+    description: 'People judge an experience by its peak and its end, not the average',
+    application: 'Design memorable moments in AI interactions',
+  },
+  {
+    name: 'Law of Proximity',
+    category: 'Visual Perception',
+    description: 'Objects near each other are perceived as related',
+    application: 'Group related AI outputs and controls together',
+  },
+  {
+    name: 'Serial Position Effect',
+    category: 'Memory',
+    description: 'Users remember the first and last items in a series best',
+    application: 'Place important AI information at beginning and end',
+  },
+  {
+    name: 'Zeigarnik Effect',
+    category: 'Psychology',
+    description: 'People remember uncompleted tasks better than completed ones',
+    application: 'Show progress in multi-step AI workflows',
+  },
+  {
+    name: "Tesler's Law",
+    category: 'Complexity',
+    description: 'Every application has an inherent amount of complexity that cannot be removed',
+    application: 'AI can help manage complexity but not eliminate it',
+  },
+  {
+    name: 'Law of Common Region',
+    category: 'Visual Perception',
+    description: 'Elements in the same region are perceived as grouped',
+    application: 'Use containers to group related AI content',
+  },
+  {
+    name: 'Von Restorff Effect',
+    category: 'Memory',
+    description: 'Items that stand out are more likely to be remembered',
+    application: 'Highlight important AI warnings or insights',
+  },
+  {
+    name: 'Doherty Threshold',
+    category: 'Performance',
+    description: 'Productivity increases when computer and user interact at <400ms',
+    application: 'Optimize AI response times for perceived performance',
+  },
+  {
+    name: 'Goal-Gradient Effect',
+    category: 'Motivation',
+    description: 'Tendency to approach a goal increases with proximity to the goal',
+    application: 'Show progress in long AI generation tasks',
+  },
+];
