@@ -4,6 +4,9 @@
   "description": "MCP server providing access to AI Blueprint design knowledge",
   "type": "module",
   "main": "dist/index.js",
+  "bin": {
+    "ai-blueprint": "./dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
